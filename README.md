@@ -38,28 +38,28 @@ to be a source of knowledge and contact that you require if you want to reconstr
 
 Some topics/knowledge used in this robot are:
 
-1.-Remote connections
-  -SSH
-  -VNC
-  -TCP sockets for server and client (ANSIC C and Java respectively)
-  -MJPEG Server
-  
-2.-Java Desktop GUI
-  -Sockets
-  -MJPEG Capture and show
-  
-3.--PCB Design (with Eagle)
-  -5V Switched Mode Power Suypply
-  -Raspberry Pi GPIO and two L293 H-Bridge interface
-  
-4.-Raspberry Pi GPIO management
-  -WiringPi
-  -I2C (for MPU6050 acelerometter)
-  
-5.-Power Management 
-  -Knowledge about batteries (NiCd - Lipo)
-  -5V SMPS design
-  -Power consumption analysis
+    1.-Remote connections
+      -SSH
+      -VNC
+      -TCP sockets for server and client (ANSIC C and Java respectively)
+      -MJPEG Server
+      
+    2.-Java Desktop GUI
+      -Sockets
+      -MJPEG Capture and show
+      
+    3.-PCB Design (with Eagle)
+      -5V Switched Mode Power Suypply
+      -Raspberry Pi GPIO and two L293 H-Bridge interface
+      
+    4.-Raspberry Pi GPIO management
+      -WiringPi
+      -I2C (for MPU6050 acelerometter)
+      
+    5.-Power Management 
+      -Knowledge about batteries (NiCd - Lipo)
+      -5V SMPS design
+      -Power consumption analysis
   
 6.-Linux stuff
   -SSH and console coomands management
