@@ -19,11 +19,17 @@ https://www.asme.org/events/competitions/student-design-competition
 The targets and the rules were quite simple:
 
   -The robot operator cannot see the stage
+  
   -The robot need to establish (in any way) a real time video with the operator
+  
   -The robot need to be controlled wirelessly
+  
   -The robot need to accomplish three tasks:
+  
           1.-Read a label with four numbers
+          
           2.-Carry a small wood cylinder
+          
           3.-Push a button 
           
 The best balance between cost and flexibility was the Raspberry Pi with a lot of add-ons.
