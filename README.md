@@ -18,19 +18,13 @@ https://www.asme.org/events/competitions/student-design-competition
 
 The targets and the rules were quite simple:
 
-  -The robot operator cannot see the stage
-  
-  -The robot need to establish (in any way) a real time video with the operator
-  
-  -The robot need to be controlled wirelessly
-  
-  -The robot need to accomplish three tasks:
-  
-          1.-Read a label with four numbers
-          
-          2.-Carry a small wood cylinder
-          
-          3.-Push a button 
+    -The robot operator cannot see the stage
+    -The robot need to establish (in any way) a real time video with the operator
+    -The robot need to be controlled wirelessly
+    -The robot need to accomplish three tasks:
+      1.-Read a label with four numbers
+      2.-Carry a small wood cylinder
+      3.-Push a button 
           
 The best balance between cost and flexibility was the Raspberry Pi with a lot of add-ons.
 The result of the contest was this project (with a more little post work), this repo have the intention
@@ -38,39 +32,39 @@ to be a source of knowledge and contact that you require if you want to reconstr
 
 Some topics/knowledge used in this robot are:
 
-    1.-Remote connections
+    -Remote connections
       -SSH
       -VNC
       -TCP sockets for server and client (ANSIC C and Java respectively)
       -MJPEG Server
       
-    2.-Java Desktop GUI
+    -Java Desktop GUI
       -Sockets
       -MJPEG Capture and show
       
-    3.-PCB Design (with Eagle)
+    -PCB Design (with Eagle)
       -5V Switched Mode Power Suypply
       -Raspberry Pi GPIO and two L293 H-Bridge interface
       
-    4.-Raspberry Pi GPIO management
+    -Raspberry Pi GPIO management
       -WiringPi
       -I2C (for MPU6050 acelerometter)
       
-    5.-Power Management 
+    -Power Management 
       -Knowledge about batteries (NiCd - Lipo)
       -5V SMPS design
       -Power consumption analysis
-  
-6.-Linux stuff
-  -SSH and console coomands management
-  -Bash scripting
-      -Automatically start services
-      -Automatically install software
-  -Make for compilation in ANSI C
-  
-7.-Wireless LAN magagement
-  -Detecting the Scrambot in LAN
-  -Scrambot as hotspot
+      
+    -Linux stuff
+      -SSH and console coomands management
+      -Bash scripting
+        -Automatically start services
+        -Automatically install software
+      -Make for compilation in ANSI C
+      
+    -Wireless LAN magagement
+      -Detecting the Scrambot in LAN
+      -Scrambot as hotspot
   
 (Breathe.......) and much more.
 
