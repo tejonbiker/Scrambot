@@ -56,7 +56,7 @@ Some topics/knowledge used in this robot are:
       -Power consumption analysis
       
     -Linux stuff
-      -SSH and console coomands management
+      -SSH and console commands management
       -Bash scripting
         -Automatically start services
         -Automatically install software
