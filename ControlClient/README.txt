@@ -13,4 +13,6 @@ The basics actions of the GUI are:
 The application is entirely crossplatform, can be used (and develop) in any
 OS that support Netbeans, currently I only tested in Linux/Win/Mac.
 
-I highly recommend start with the file ControlGUI.java
+The executable is dist/ControlClient.jar
+
+I highly recommend start with the file ControlGUI.java if you want inspect the code.

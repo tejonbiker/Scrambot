@@ -1,0 +1,50 @@
+Partlist exported from C:/GitHub/Scrambot/Eagle/PiDriver/PiDriverV3/PiDriverV3.sch at 08/06/2014 11:17:48 p.m.
+
+Part      Value        Device       Package        Description                     MF                MPN   OC_FARNELL OC_NEWARK
+AMRC                   W237-02P     W237-132       WAGO SREW CLAMP                                         unknown    unknown  
+ARM                    PINHD-1X2    1X02           PIN HEADER                                                                  
+C1        10uF         C-USC1206    C1206          CAPACITOR, American symbol                                                  
+CHARGUEIN              PINHD-1X2    1X02           PIN HEADER                                                                  
+CLAW                   PINHD-1X2    1X02           PIN HEADER                                                                  
+CLAWC                  W237-02P     W237-132       WAGO SREW CLAMP                                         unknown    unknown  
+D1        1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D2        1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D3        1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D4        1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D5        1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D6        1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D7        1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D8        1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D9        1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D10       1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D11       1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D12       1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D13       1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D14       1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D15       1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+D16       1N5819-T     1N5819-T     DO41-7.6       1.0A SCHOTTKY BARRIER RECTIFIER                                             
+IC1       L293E        L293E        DIL16          TI DEVICE                       Arrow Electronics L293E 1467711    89K0732  
+IC2       L293E        L293E        DIL16          TI DEVICE                       Arrow Electronics L293E 1467711    89K0732  
+LED1                   LEDSMT1206   1206           LED                                                                         
+LED2                   LEDSMT1206   1206           LED                                                                         
+LED3                   LEDSMT1206   1206           LED                                                                         
+LED4                   LEDSMT1206   1206           LED                                                                         
+LED5                   LEDSMT1206   1206           LED                                                                         
+LEFT                   PINHD-1X2    1X02           PIN HEADER                                                                  
+LEFTC                  W237-02P     W237-132       WAGO SREW CLAMP                                         unknown    unknown  
+MPU6050                PINHD-1X4    1X04           PIN HEADER                                                                  
+POWERIN                PINHD-1X2    1X02           PIN HEADER                                                                  
+R1                     R-US_M1206   M1206          RESISTOR, American symbol                                                   
+R2        3.01k        R-US_M1206   M1206          RESISTOR, American symbol                                                   
+R3        1k           R-US_M1206   M1206          RESISTOR, American symbol                                                   
+R4        1k           R-US_M1206   M1206          RESISTOR, American symbol                                                   
+R5                     R-US_M1206   M1206          RESISTOR, American symbol                                                   
+R6                     R-US_M1206   M1206          RESISTOR, American symbol                                                   
+R7                     R-US_M1206   M1206          RESISTOR, American symbol                                                   
+R8                     R-US_M1206   M1206          RESISTOR, American symbol                                                   
+RIGHT                  PINHD-1X2    1X02           PIN HEADER                                                                  
+RIGHTC                 W237-02P     W237-132       WAGO SREW CLAMP                                         unknown    unknown  
+S1                     255SB        255SB          SLIDING SWITCH                                                              
+SK1       PI-GPIO-PTH  PI-GPIO-PTH  GPIO-CONNECTOR Raspberry Pi                                                                
+SMPS                   PINHD-1X2    1X02           PIN HEADER                                                                  
+U$1       PIC16F88-DIP PIC16F88-DIP DIL18          8-bit PIC uC                                                                
