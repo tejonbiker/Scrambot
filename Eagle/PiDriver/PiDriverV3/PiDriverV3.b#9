@@ -110,7 +110,7 @@
 <wire x1="86.03" y1="92.7" x2="7.62" y2="92.7" width="0" layer="20"/>
 <wire x1="7.62" y1="92.7" x2="7.62" y2="0" width="0" layer="20"/>
 <text x="74.295" y="1.27" size="1.778" layer="16" rot="MR0">Scrambot Driver V3</text>
-<text x="78.74" y="71.12" size="1.27" layer="16" rot="MR0">Univ De
+<text x="82.55" y="74.93" size="1.778" layer="16" rot="MR0">Univ De
 Guanajuato
 FIMEE 
 7/06/2014</text>
@@ -130,9 +130,11 @@ FIMEE
 <hole x="10.795" y="3.175" drill="2.8"/>
 <hole x="83.185" y="3.175" drill="2.8"/>
 <hole x="19.05" y="16.51" drill="2.8"/>
-<hole x="57.785" y="16.51" drill="2.8"/>
+<hole x="56.515" y="16.51" drill="2.8"/>
 <hole x="63.5" y="90.805" drill="2.8"/>
 <hole x="48.26" y="90.805" drill="2.8"/>
+<hole x="83.185" y="89.535" drill="2.8"/>
+<hole x="10.795" y="89.535" drill="2.8"/>
 </plain>
 <libraries>
 <library name="jt-raspberry-pi">
