@@ -20997,6 +20997,8 @@ https://github.com/tejonbiker/Scrambot
 <wire x1="345.44" y1="147.32" x2="347.98" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="330.2" y1="147.32" x2="330.2" y2="149.86" width="0.1524" layer="91"/>
+<junction x="292.1" y="149.86"/>
+<junction x="330.2" y="149.86"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -21168,6 +21170,7 @@ https://github.com/tejonbiker/Scrambot
 <wire x1="292.1" y1="134.62" x2="292.1" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="137.16" x2="266.7" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="134.62" x2="292.1" y2="134.62" width="0.1524" layer="91"/>
+<junction x="292.1" y="134.62"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
@@ -21398,6 +21401,9 @@ https://github.com/tejonbiker/Scrambot
 <wire x1="175.26" y1="127" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="127" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
+<junction x="175.26" y="127"/>
+<junction x="-83.82" y="71.12"/>
+<junction x="-83.82" y="83.82"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -21411,6 +21417,7 @@ https://github.com/tejonbiker/Scrambot
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="160.02" x2="266.7" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="160.02" x2="266.7" y2="149.86" width="0.1524" layer="91"/>
+<junction x="266.7" y="149.86"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -21433,6 +21440,7 @@ https://github.com/tejonbiker/Scrambot
 <wire x1="177.8" y1="127" x2="190.5" y2="127" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="1" pin="3"/>
 <wire x1="177.8" y1="127" x2="177.8" y2="129.54" width="0.1524" layer="91"/>
+<junction x="195.58" y="149.86"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -21445,6 +21453,7 @@ https://github.com/tejonbiker/Scrambot
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="330.2" y1="139.7" x2="330.2" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="137.16" x2="340.36" y2="137.16" width="0.1524" layer="91"/>
+<junction x="340.36" y="137.16"/>
 </segment>
 </net>
 <net name="N$42" class="0">

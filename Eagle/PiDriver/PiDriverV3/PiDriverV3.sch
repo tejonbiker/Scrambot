@@ -20405,7 +20405,7 @@ Source: DCJ0202.pdf</description>
 <part name="IC1" library="texas" deviceset="L293E" device=""/>
 <part name="IC2" library="texas" deviceset="L293E" device=""/>
 <part name="POWER" library="led" deviceset="LED" device="SMT1206"/>
-<part name="R1" library="rcl" deviceset="R-US_" device="M1206" value="1.5k"/>
+<part name="R1" library="rcl" deviceset="R-US_" device="M1206" value="4k"/>
 <part name="S1" library="switch" deviceset="255SB" device=""/>
 <part name="LEFT" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="RIGHT" library="pinhead" deviceset="PINHD-1X2" device=""/>
@@ -20415,9 +20415,9 @@ Source: DCJ0202.pdf</description>
 <part name="CHARGUEIN" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="MPU6050" library="pinhead" deviceset="PINHD-1X4" device=""/>
 <part name="U$1" library="SparkFun-DigitalIC" deviceset="PIC16F88-DIP" device=""/>
-<part name="R2" library="rcl" deviceset="R-US_" device="M1206" value="3.01k"/>
-<part name="R3" library="rcl" deviceset="R-US_" device="M1206" value="2k"/>
-<part name="C1" library="rcl" deviceset="C-US" device="C1206" value="10uF"/>
+<part name="R2" library="rcl" deviceset="R-US_" device="M1206" value="422"/>
+<part name="R3" library="rcl" deviceset="R-US_" device="M1206" value="2.61k"/>
+<part name="C1" library="rcl" deviceset="C-US" device="C1206" value="10uF C1206C106K4RACTU"/>
 <part name="RIGHTC" library="con-wago-508" deviceset="W237-02P" device=""/>
 <part name="LEFTC" library="con-wago-508" deviceset="W237-02P" device=""/>
 <part name="CLAWC" library="con-wago-508" deviceset="W237-02P" device=""/>
@@ -20470,16 +20470,16 @@ Source: DCJ0202.pdf</description>
 <part name="D17" library="diode" deviceset="ZENER-DIODE" device="SOD80C" value="BZV55-C3V3"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J1" library="con-jack" deviceset="DCJ0202" device=""/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C1206"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="10 nF"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U1" library="LM2675M-5.0" deviceset="LM2675M-5.0" device=""/>
 <part name="C3" library="rcl" deviceset="CPOL-US" device="E1.8-4" value="100 uF MCGPR25V107M6.3X11"/>
-<part name="C4" library="rcl" deviceset="CPOL-US" device="E1.8-4" value="68 uF 10MS568MEFC6.3X5"/>
+<part name="C4" library="rcl" deviceset="CPOL-US" device="E1.8-4" value="68 uF  EKZE160ELL680MF07D"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="L1" library="rcl" deviceset="L-US" device="6000-XXX-RC" value="47 uH 13R473C"/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="D18" library="diode" deviceset="DIODE-" device="DO-214AC"/>
+<part name="D18" library="diode" deviceset="DIODE-" device="DO-214AC" value="SSA23L-E3/61T"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C1206" value="10 nF CC1206KRX7R9BB103"/>
 <part name="VCC_5V3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="JP1" library="jumper" deviceset="JP2E" device=""/>
@@ -21335,11 +21335,6 @@ https://github.com/tejonbiker/Scrambot
 <wire x1="0" y1="38.1" x2="0" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="0" y1="76.2" x2="0" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="88.9" x2="5.08" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="109.22" x2="5.08" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="111.76" x2="292.1" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="111.76" x2="292.1" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="71.12" x2="314.96" y2="71.12" width="0.1524" layer="91"/>
 <junction x="5.08" y="88.9"/>
 <pinref part="SMPS" gate="G$1" pin="2"/>
 <wire x1="-63.5" y1="78.74" x2="-55.88" y2="78.74" width="0.1524" layer="91"/>
@@ -21364,46 +21359,13 @@ https://github.com/tejonbiker/Scrambot
 <junction x="0" y="76.2"/>
 <junction x="0" y="38.1"/>
 <wire x1="142.24" y1="109.22" x2="5.08" y2="109.22" width="0.1524" layer="91"/>
-<junction x="5.08" y="109.22"/>
 <wire x1="152.4" y1="109.22" x2="147.32" y2="109.22" width="0.1524" layer="91"/>
 <junction x="119.38" y="33.02"/>
 <junction x="142.24" y="109.22"/>
 <junction x="147.32" y="109.22"/>
 <wire x1="0" y1="81.28" x2="-53.34" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="81.28" x2="-53.34" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<wire x1="-78.74" y1="45.72" x2="-78.74" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="50.8" x2="-93.98" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="50.8" x2="-93.98" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="S1" gate="1" pin="P"/>
-<pinref part="POWERIN" gate="G$1" pin="2"/>
-<wire x1="-78.74" y1="88.9" x2="-71.12" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="CHARGUEIN" gate="G$1" pin="2"/>
-<wire x1="-81.28" y1="63.5" x2="-83.82" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="63.5" x2="-83.82" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="71.12" x2="-83.82" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="83.82" x2="-83.82" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="88.9" x2="-78.74" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-93.98" y1="71.12" x2="-83.82" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="-83.82" y1="45.72" x2="-78.74" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="83.82" x2="-88.9" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="83.82" x2="-88.9" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="116.84" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="116.84" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="1" pin="2"/>
-<wire x1="175.26" y1="124.46" x2="175.26" y2="127" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="1" pin="1"/>
-<wire x1="175.26" y1="127" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="127" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
-<junction x="175.26" y="127"/>
-<junction x="-83.82" y="71.12"/>
-<junction x="-83.82" y="83.82"/>
+<junction x="0" y="81.28"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -21486,6 +21448,46 @@ https://github.com/tejonbiker/Scrambot
 <pinref part="U2" gate="A" pin="OUT"/>
 <wire x1="383.54" y1="147.32" x2="393.7" y2="147.32" width="0.1524" layer="91"/>
 <label x="393.7" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$53" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="111.76" x2="7.62" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="111.76" x2="292.1" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="111.76" x2="292.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="71.12" x2="314.96" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="45.72" x2="-78.74" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="50.8" x2="-93.98" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="50.8" x2="-93.98" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="S1" gate="1" pin="P"/>
+<pinref part="POWERIN" gate="G$1" pin="2"/>
+<wire x1="-78.74" y1="88.9" x2="-71.12" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="CHARGUEIN" gate="G$1" pin="2"/>
+<wire x1="-81.28" y1="63.5" x2="-83.82" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="63.5" x2="-83.82" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="71.12" x2="-83.82" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="83.82" x2="-83.82" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="88.9" x2="-78.74" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-93.98" y1="71.12" x2="-83.82" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="-83.82" y1="45.72" x2="-78.74" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="83.82" x2="-88.9" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="83.82" x2="-88.9" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="111.76" x2="-88.9" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="116.84" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="116.84" x2="162.56" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="1" pin="2"/>
+<wire x1="175.26" y1="124.46" x2="175.26" y2="127" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="1" pin="1"/>
+<wire x1="175.26" y1="127" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="127" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
+<junction x="175.26" y="127"/>
+<junction x="-83.82" y="71.12"/>
+<junction x="-83.82" y="83.82"/>
+<wire x1="5.08" y1="111.76" x2="-88.9" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

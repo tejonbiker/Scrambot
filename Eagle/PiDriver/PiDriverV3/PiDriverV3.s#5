@@ -9468,7 +9468,7 @@ Source: DCJ0202.pdf</description>
 <part name="D16" library="diode" deviceset="1N581*" device="" technology="9-T" value="1N5819-T"/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="D17" library="diode" deviceset="ZENER-DIODE" device="SOD80C"/>
+<part name="D17" library="diode" deviceset="ZENER-DIODE" device="SOD80C" value="BZV55-C3V3"/>
 <part name="GND18" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J1" library="con-jack" deviceset="DCJ0202" device=""/>
 </parts>

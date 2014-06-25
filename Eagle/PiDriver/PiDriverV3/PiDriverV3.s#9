@@ -8528,6 +8528,85 @@ We've spent an enormous amount of time creating and checking these footprints an
 </deviceset>
 </devicesets>
 </library>
+<library name="diode">
+<description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
+Based on the following sources:
+&lt;ul&gt;
+&lt;li&gt;Motorola : www.onsemi.com
+&lt;li&gt;Fairchild : www.fairchildsemi.com
+&lt;li&gt;Philips : www.semiconductors.com
+&lt;li&gt;Vishay : www.vishay.de
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DO41-7.6">
+<description>&lt;b&gt;DO41&lt;/b&gt; 7.6mm x 2mm&lt;p&gt;
+Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
+<wire x1="2.082" y1="-0.92" x2="-2.082" y2="-0.92" width="0.1524" layer="21"/>
+<wire x1="2.082" y1="-0.92" x2="2.082" y2="0.92" width="0.1524" layer="21"/>
+<wire x1="-2.082" y1="0.92" x2="2.082" y2="0.92" width="0.1524" layer="21"/>
+<wire x1="-2.082" y1="0.92" x2="-2.082" y2="-0.92" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="0" x2="2.494" y2="0" width="0.85" layer="51"/>
+<wire x1="-3.81" y1="0" x2="-2.519" y2="0" width="0.85" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="C" x="-3.81" y="0" drill="1.1" diameter="1.7"/>
+<pad name="A" x="3.81" y="0" drill="1.1" diameter="1.7"/>
+<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.032" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-0.95" x2="-1.143" y2="0.92" layer="21"/>
+<rectangle x1="2.082" y1="-0.425" x2="2.717" y2="0.425" layer="21"/>
+<rectangle x1="-2.717" y1="-0.425" x2="-2.082" y2="0.425" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SCHOTTKY">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1N581*" prefix="D">
+<description>&lt;b&gt;1.0A SCHOTTKY BARRIER RECTIFIER&lt;/b&gt;&lt;p&gt;
+Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
+<gates>
+<gate name="G$1" symbol="SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DO41-7.6">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="7-B"/>
+<technology name="7-T"/>
+<technology name="8-B"/>
+<technology name="8-T"/>
+<technology name="9-B"/>
+<technology name="9-T"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8581,6 +8660,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="VCC_5V1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="VCC_5V2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
+<part name="D1" library="diode" deviceset="1N581*" device="" technology="7-B"/>
 </parts>
 <sheets>
 <sheet>
@@ -8630,7 +8710,7 @@ https://github.com/tejonbiker/Scrambot
 <instance part="RIGHTC" gate="-1" x="2.54" y="73.66"/>
 <instance part="RIGHTC" gate="-2" x="2.54" y="68.58"/>
 <instance part="LEFTC" gate="-1" x="106.68" y="86.36" rot="MR0"/>
-<instance part="LEFTC" gate="-2" x="106.68" y="78.74" rot="MR0"/>
+<instance part="LEFTC" gate="-2" x="106.68" y="81.28" rot="MR0"/>
 <instance part="CLAWC" gate="-1" x="-2.54" y="22.86"/>
 <instance part="CLAWC" gate="-2" x="-2.54" y="15.24"/>
 <instance part="AMRC" gate="-1" x="86.36" y="33.02" rot="MR0"/>
@@ -8656,6 +8736,7 @@ https://github.com/tejonbiker/Scrambot
 <instance part="GND9" gate="1" x="289.56" y="22.86"/>
 <instance part="VCC_5V1" gate="1" x="71.12" y="91.44"/>
 <instance part="VCC_5V2" gate="1" x="71.12" y="43.18"/>
+<instance part="D1" gate="G$1" x="-20.32" y="43.18"/>
 </instances>
 <busses>
 <bus name="SCL,SDA">
@@ -8705,11 +8786,9 @@ https://github.com/tejonbiker/Scrambot
 <wire x1="27.94" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="53.34" x2="20.32" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="0" y1="81.28" x2="0" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="VCC2"/>
-<wire x1="27.94" y1="5.08" x2="22.86" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="5.08" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="0" y1="45.72" x2="22.86" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="0" y1="5.08" x2="0" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="VCC2"/>
 <junction x="27.94" y="53.34"/>
 <wire x1="5.08" y1="88.9" x2="5.08" y2="111.76" width="0.1524" layer="91"/>
@@ -8810,10 +8889,9 @@ https://github.com/tejonbiker/Scrambot
 <wire x1="71.12" y1="73.66" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="3Y"/>
 <wire x1="71.12" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="73.66" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="73.66" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="LEFTC" gate="-1" pin="KL"/>
-<wire x1="83.82" y1="91.44" x2="101.6" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="91.44" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="86.36" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -8994,7 +9072,6 @@ https://github.com/tejonbiker/Scrambot
 <net name="N$31" class="0">
 <segment>
 <pinref part="LEFTC" gate="-2" pin="KL"/>
-<wire x1="101.6" y1="81.28" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="4Y"/>
 <wire x1="58.42" y1="78.74" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="78.74" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
